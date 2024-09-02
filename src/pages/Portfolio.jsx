@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from '../components/Project';
-import project1 from '../assets/project1.jpg';  // Adjust the path as needed
+import project1 from '../assets/project1.jpg';  
 
 function Portfolio() {
   const projects = [
@@ -10,7 +10,6 @@ function Portfolio() {
       deployedLink: 'https://your-project1.com',
       githubLink: 'https://github.com/your-project1',
     },
-    // Add more project objects here
   ];
 
   return (

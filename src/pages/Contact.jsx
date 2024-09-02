@@ -18,7 +18,6 @@ function Contact() {
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      // Form submission logic here
       console.log('Form submitted', formState);
     }
   };

@@ -10,7 +10,6 @@ function Resume() {
         <li>JavaScript</li>
         <li>React</li>
         <li>CSS</li>
-        {/* Add more proficiencies */}
       </ul>
     </section>
   );

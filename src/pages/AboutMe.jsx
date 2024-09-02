@@ -1,6 +1,5 @@
 import React from 'react';
-import avatar from '../assets/avatar.jpg';  // Adjust the path as needed
-
+import avatar from '../assets/avatar.jpg';
 function AboutMe() {
   return (
     <section>

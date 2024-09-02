@@ -3,11 +3,11 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  root: 'public', // Ensures the root is set correctly
+  root: 'public', 
   build: {
-    outDir: '../dist', // Outputs the build files in the dist folder
+    outDir: '../dist', 
     rollupOptions: {
-      input: './public/index.html', // Ensures Vite uses the correct input file
+      input: './public/index.html', 
     },
   },
   server: {
