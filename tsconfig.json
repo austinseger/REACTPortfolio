@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "strict": true,
+      "jsx": "react",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "baseUrl": "./",
+      "paths": {
+        "@stackbit/types": ["node_modules/@stackbit/types"]
+      }
+    },
+    "include": ["src", "stackbit.config.ts"],
+    "exclude": ["node_modules"]
+  }
+  
